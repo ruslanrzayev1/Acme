@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EB5757;
+    height: 70px;
+    width: 1519px;
+}
+.hdr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+.acmelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarmain{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 600px;
+gap: 30px;
+color: white;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    list-style: none;
+    font-family: Sen, sans-serif;;
+}
+.shopicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #222222;
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+}
+.climberr img{
+    width: 1519px;
+    height: 720px;
+}
+.climber{
+position: absolute;
+bottom: 205px;
+left: 170px;
+}
+.contex{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;  
+    color: white;
+    width: 380px;
+    gap: 10px;
+    font-family: Sen, sans-serif;;
+}
+#strong1{
+    font-size: 62px;
+    line-height: 74px;
+}
+.contex p{
+    font-size: 18px;
+    line-height: 27px;
+}
+#strong2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 5px;
+    background-color: none;
+    border: 1px solid white;
+}
+#strong2:hover{
+    background-color: white;
+    color: black;
+}
+.support{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1519px;
+    height: 600px;
+}
+.contex2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1450px;
+    height: 400px;
+}
+.contex3{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 440px;
+}
+.contex3 p{
+font-size: 16px;
+line-height: 24px;
+}
+.contex3 strong{
+    font-size: 40px;
+    line-height: 48px;
+}
+.covid{
+    width: 450px;
+}
+.covid p{
+font-size: 16px;
+line-height: 24px;
+
+}
+.donatemain{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 70px;
+    width: 1519px;
+    height: 900px;
+}
+.donate{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    height: 450px;
+    gap: 40px;
+}
+.shpdonbgc{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;   
+    background-color: #222222;
+    border-radius: 5px;
+    width: 340px;
+    height: 330px;
+    font-size: 40px;
+    line-height: 48px;
+}
+.shpdonbgc strong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;   
+}
+.order{
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}
+.climber2{
+    position: relative;
+}
+.climber2 img{
+height: 630px;
+width: 1519px;
+}
+.contex4{
+    display: flex;
+    flex-direction: column;
+align-items: end;
+    position: absolute;
+    width: 500px;
+   bottom: 100px;
+   right: 100px;
+   gap: 20px;
+}
+.contex4 strong{
+    font-size: 45px;
+    line-height: 54px;
+    color: white;
+}
+.contex4sec {
+    display: flex;
+    justify-content: end;
+    width: 350px;
+    font-size: 18px;
+    line-height:27px;
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height:27px;
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.sec4{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.highlight{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 1170px;
+}
+.highlight p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.highlight strong{
+    font-size: 40px;
+    line-height: 48px;
+    color: #333333;
+}
+.prices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 1170px;
+}
+.prices2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.prices3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.prices3 img{
+    width: 380px;
+    height: 500px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.name{
+    font-size: 20px;
+    line-height: 30px;
+}
+.dollar{
+    font-size: 14px;
+    line-height: 21px;
+}
+.dollared{
+    color: red;
+}
+.dollars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.reddet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #EB5757;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.reddet:hover{
+    background-color: black;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.allpro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+   
+}
+.allpro strong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    width: 160px;
+}
+.allpro strong:hover{
+    background-color: #EB5757;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.blckmain{
+    height: 600px;
+    width:1519px;
+    position: relative;
+}
+.blckbck{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 410px;
+    background-color: black;
+    height: 530px;
+    width: 935px;
+}
+.cntxall{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+}
+.cntxall p{
+  font-size: 16px;
+    line-height: 24px;
+}
+.shoplcl{
+    font-size: 45px;
+    line-height: 54px;
+}
+
+footer{
+    height: 180px;
+    width: 1519px;
+    background-color: #222222;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ftrmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 50px;
+}
+.sclmd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.sclmd img{
+    width: 35px;
+    height: 35px;
+}
+.lst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}   
