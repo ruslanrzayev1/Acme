@@ -10,6 +10,8 @@ header{
     background-color: #EB5757;
     height: 70px;
     width: 1519px;
+    position: fixed;
+    z-index: 1;
 }
 .hdr{
     display: flex;
@@ -21,6 +23,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .navbarmain{
 display: flex;
@@ -34,11 +37,25 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 25px;
     font-size: 16px;
     line-height: 24px;
     list-style: none;
     font-family: Sen, sans-serif;;
+}
+.navbar ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    background-color: black;
+    color: white;
 }
 .shopicon{
     display: flex;
@@ -49,6 +66,7 @@ color: white;
     width: 50px;
     height: 30px;
     border-radius: 6px;
+    cursor: pointer;
 }
 .climberr img{
     width: 1519px;
@@ -145,7 +163,7 @@ line-height: 24px;
     width: 340px;
     height: 450px;
     gap: 40px;
-}
+} 
 .shpdonbgc{
     position: relative;
     display: flex;
@@ -159,6 +177,13 @@ line-height: 24px;
     height: 330px;
     font-size: 40px;
     line-height: 48px;
+}
+.shpdonbgc img{
+position: absolute;
+left: auto;
+top: auto;
+right: -25%;
+bottom: -25%;
 }
 .shpdonbgc strong{
     display: flex;
@@ -279,6 +304,9 @@ flex-direction: column;
 }
 .dollared{
     color: red;
+    font-size: 14px;
+    line-height: 21px;  
+    text-decoration: line-through;
 }
 .dollars{
     display: flex;
@@ -337,8 +365,20 @@ flex-direction: column;
     justify-content: center;
     left: 410px;
     background-color: black;
+    border-radius: 5px;
     height: 530px;
     width: 935px;
+}
+.brimg{
+    position: absolute;
+    width: 350px;
+    height: 440px;
+    overflow: hidden;
+    left: -250px;
+}
+.brimg img{
+    height: auto;
+    border-radius: 5px;
 }
 .cntxall{
     width: 350px;
@@ -371,6 +411,9 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.ftrmain img{
+    cursor: pointer;
 }
 .imgs{
     display: flex;
